@@ -1,0 +1,31 @@
+<div class="container bg-dark col-md-12" style="--bs-bg-opacity:0.7; height: 1170px;">
+    <div class="card bg-dark" style="height: auto; width: 70%; color: #fff; --bs-bg-opacity: 0.7">
+    <div class="recipename">
+
+        <h2>{{recipeList[recipeNo].recipeName}}</h2>
+    
+    </div>
+
+    <div class="card ingredients justify-content-center col-md-4" style="height: auto; width: 60%; margin-right: 30px; color: #333">
+
+        <h3 style="margin: 20px 10px;">Ingredients</h3>
+        <ul *ngFor="let ingredient of recipeList[recipeNo]?.ingredients">
+            <li>{{ingredient.ingrid}}</li>
+        </ul>
+    </div>
+
+    <div class="instructions mt-5">
+        <h3 style="margin: 20px 10px;">Instructions</h3>
+        <ul *ngFor="let instruction of recipeList[recipeNo]?.instructions">
+            <li>{{instruction.steps}}</li>
+        </ul>
+    </div>
+
+    <div class="d-flex justify-content-between mt-5">
+        <button class="btn" style="color: rgb(255, 115, 0);" (click)="prevRecipe()" [disabled]="recipeNo==0"><i class="fa fa-spoon fa-2x"></i></button>
+        <button class="btn" style="color: rgb(255, 255, 255);" routerLink=""><i class="fa fa-home fa-2x"></i></button>
+        <button  class="btn" style="color: rgb(43, 255, 0);" (click)="nextRecipe()" [disabled]="recipeNo===2"><i class="fa fa-spoon fa-2x"></i></button>
+        
+    </div>
+</div>
+</div>

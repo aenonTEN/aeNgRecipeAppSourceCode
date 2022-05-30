@@ -1,0 +1,21 @@
+.card .img{ 
+    margin: 10px;
+    padding: 0;
+   
+}
+
+.btn {
+    position: relative;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 5px #333;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+

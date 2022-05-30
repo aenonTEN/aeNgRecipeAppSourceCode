@@ -1,0 +1,144 @@
+{
+
+    "recipes" : [
+        {
+            "id": 1,
+        "recipeName": "Egg Toast recipe",
+        "ingredients": [
+            {
+               "ingrid": "1½ teaspoons bacon grease"
+    
+            },
+            {
+                "ingrid": "1 slice bread"
+                    },
+            {
+                "ingrid": " 1 egg"
+                    },
+            {
+                "ingrid": "salt and ground black pepper to taste"
+                    }
+        ],
+        "instructions": [
+            
+            { "steps": "Melt bacon grease in a nonstick pan over low heat."},
+            { "steps": "Cut a 2-inch hole in the center of bread slice; place in the hot skillet and cook until lightly toasted, about 2 minutes. Flip bread and crack egg into the hole; season with salt and pepper. Continue to cook until egg is cooked and mostly firm; flip again and cook 1 minute more. Serve immediately."}
+        ]
+    
+        },
+        {
+            "id":2,
+            "recipeName": "Veg Burger",
+            "ingredients": [
+                {
+                   "ingrid": "1 small eggplant, halved and sliced"
+
+                  
+        
+                },
+                {
+                    "ingrid": " 1 tablespoon olive oil, or as needed"
+                   
+                   
+                        },
+                {
+                    "ingrid": "  ¼ cup mayonnaise"
+                    
+                    
+                        },
+                {
+                    "ingrid": "2 cloves garlic, minced"
+                    
+                   
+                 },
+                 {
+              "ingrid": "  2 (6 inch) French sandwich rolls"
+                    
+             
+                            
+                
+                    },
+                    {
+                 "ingrid": "  1 small tomato, sliced"
+              
+                
+                              
+                  
+                                },
+                 {               
+                     "ingrid": "  ½ cup crumbled feta cheese"
+                 
+                     
+                                            
+                         
+                     },
+                      {
+                   "ingrid": "¼ cup chopped fresh basil leaves"
+                                                    
+                      
+                      }
+            ],
+            "instructions": [
+                
+                { "steps": "Preheat your oven's broiler. Brush eggplant slices with olive oil, and place them on a baking sheet or broiling pan. Place the pan about 6 inches from the heat source. Cook under the broiler for 10 minutes, or until tender and toasted."},
+                { "steps": "Split the French rolls lengthwise, and toast. In a cup or small bowl, stir together the mayonnaise and garlic. Spread this mixture on the toasted bread. Fill the rolls with eggplant slices, tomato, feta cheese and basil leaves."}
+            ]
+        
+            },
+                {
+                    "id":3,
+                    "recipeName": "Fettuccine Alfredo Pasta",
+                    "ingredients": [
+                        {
+                           "ingrid": "24 ounces dry fettuccini pasta"
+
+                           
+                
+                        },
+                        {
+                            "ingrid": "1 cup butter"
+                           
+                            
+                                },
+                        {
+                            "ingrid": "¾ pint heavy cream"
+                            
+                            
+                                },
+                        {
+                            "ingrid": "salt and pepper to taste"
+                            
+                            
+                                },
+                 {
+                  "ingrid": "1 dash garlic salt"
+                            
+                  
+                                    
+                   
+              },
+                 {
+                "ingrid": "¾ cup grated Romano cheese"
+                  
+               
+                    
+                    
+                      },
+                   {
+                  "ingrid": " ½ cup grated Parmesan cheese"
+                                
+                      
+                       }
+                    ],
+                    "instructions": [
+                        
+                        { "steps": "Bring a large pot of lightly salted water to a boil. Add fettuccini and cook for 8 to 10 minutes or until al dente; drain."},
+                        { "steps": "In a large saucepan, melt butter into cream over low heat. Add salt, pepper and garlic salt. Stir in cheese over medium heat until melted; this will thicken the sauce."},
+                        {"steps": "Add pasta to sauce. Use enough of the pasta so that all of the sauce is used and the pasta is thoroughly coated. Serve immediately."}
+                    ]
+                
+                    }
+                    
+    ]
+    
+    }
